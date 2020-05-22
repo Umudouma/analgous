@@ -1,0 +1,263 @@
+/*Base Styles*/
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color:#ffffff;
+  color:#095256;
+}
+
+/*Grid setup*/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  margin: 0 auto;
+  float:left;
+  height: 375px;
+}
+
+.third-width {
+  width: 399px;
+  float: left;
+}
+
+/*************Style Header**************/
+header {
+  height:800px;
+  background:url("../img/hero-image.png");
+  background-size: 100% 100%;
+  overflow:hidden;
+}
+
+/*Style header 1...web developer*/
+.greeting h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  font-weight: bold;
+  color:#bdbf09;
+  padding-left: 358px;
+  padding-top:347px;
+}
+
+/*Style paragraph...web developer*/
+.greeting p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  color:#095256;
+  padding-left: 327px;
+}
+/*********************Style Portfolio Section***************************/
+#my-portfolio h3{
+  padding-top: 50px;
+  padding-bottom: 110px;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto Slab', serif;
+  color:#095256;
+}
+
+
+/*Assign portfolio section height*/
+#my-portfolio{
+  height: 1450px;
+}
+
+/*style rogue-pickings website section*/
+.rogue-website h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top:1px;
+  color:#095256;
+}
+
+.rogue-website h4 span{
+  font-weight: lighter;
+}
+
+.rogue-website p{
+  color:#095256;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  padding-right:18px;
+}
+
+.rogue-website {
+  margin-bottom: 54px;
+}
+
+/*style jubilee website section*/
+.jubilee-website {
+  padding-bottom: 51px;
+}
+
+.jubilee-website h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top:1px;
+  color:#095256;
+}
+
+.jubilee-website h4 span{
+  font-weight: lighter;
+}
+
+.jubilee-website p{
+  color:#095256;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  padding-right:18px;
+}
+
+/*style recipe website section*/
+.recipe-website h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top:1px;
+  color:#095256;
+}
+
+.recipe-website h4 span{
+  font-weight: lighter;
+}
+
+.recipe-website p{
+  color:#095256;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  padding-right:18px;
+}
+
+.recipe-website{
+  padding-bottom: 100px;
+}
+
+#about-me{
+  height: 650px;
+  background-color:#087e8b;
+}
+
+#about-me h3{
+  font-size: 36px;
+  font-family: 'Roboto Slab', serif;
+  color:#ffffff;
+  padding-top:51px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+#about-me img{
+  border: 5px solid #ffffff;
+}
+
+#about-me span{
+  font-weight: bold;
+}
+
+#about-me p{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color:#ffffff;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+#contact{
+  height: 400px;
+  background-color: #095156;
+  margin-top:-38px; /*fix gap between two sections*/
+}
+
+
+/*Style main heading*/
+#contact h3{
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight:bold;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+/*Style sub-heading for contacts*/
+#contact-number span{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+  color: #ffffff;
+}
+
+/*Style contact information*/
+#contact-number p{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*Style sub-heading for social media*/
+#social-media span{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+  text-align:center;
+  color: #ffffff;
+}
+
+/*Style social media icons*/
+#social-media ul li {
+  display:inline-block;
+  padding-left: 50px;
+    background-color: #095156;
+}
+
+#social-media ul {
+  background-color: #095156;
+}
+
+/*centralise social media icons*/
+#social-media p{
+  text-align: center;
+}
+
+/*Style sub-heading for social media*/
+#meet-me span{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+  text-align:center;
+  color: #ffffff;
+}
+
+/*Style contact address*/
+#meet-me p{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+/*Style copyright message*/
+.copy-right p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: px;
+  clear:both;
+  color: #ffffff;
+}
